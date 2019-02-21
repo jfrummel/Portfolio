@@ -1,3 +1,7 @@
+.super-container {
+    overflow-x: hidden;
+}
+
 body {
     width: 100%;
     margin: 0;
@@ -136,6 +140,7 @@ html {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     overflow: hidden;
+    text-overflow: initial;
 }
 
 #card-logo {
@@ -174,5 +179,15 @@ html {
 @media screen and (max-width: 992px) {
     .skill-list {
         padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        padding: 10px;
+    }
+
+    .bio {
+        margin-left: 0;
     }
 }
